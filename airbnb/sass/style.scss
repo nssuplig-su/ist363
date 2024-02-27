@@ -1,3 +1,5 @@
+$color__orange: #d74100;
+
 html,
 body,
 h1,
@@ -23,13 +25,12 @@ li {
 * {
   box-sizing: border-box; /* Pushes content in */
 }
-
 :root {
   --airbnb-pink: #ff385c;
 }
 
 body {
-  background: #d74100;
+  background: $color__orange;
 }
 
 header {
@@ -76,13 +77,11 @@ nav a:focus {
   border: 1px solid var(--airbnb-pink);
   cursor: pointer;
 }
-
 .btn-ui svg {
   width: 2rem;
   height: auto;
   fill: var(--airbnb-pink);
 }
-
 .overlay {
   width: 100vw;
   height: 100vh;
@@ -108,5 +107,3 @@ nav a:focus {
   font-family: Arial;
   font-size: 2rem;
 }
-
-/*# sourceMappingURL=style.css.map */
